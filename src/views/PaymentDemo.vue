@@ -60,7 +60,6 @@
           <label for="symbol">Symbol:</label>
           <select id="symbol" v-model="collectionOrder.symbol">
             <option value="USDT">USDT</option>
-            <option value="BTC">BTC</option>
             <option value="ETH">ETH</option>
             <option value="TRX">TRX</option>
           </select>
@@ -68,7 +67,6 @@
         <div class="form-group">
           <label for="chain">Chain:</label>
           <select id="chain" v-model="collectionOrder.chain">
-            <option value="TRON_TEST">TRON_TEST</option>
             <option value="TRON">TRON</option>
             <option value="ETH">Ethereum</option>
             <option value="BSC">Binance Smart Chain</option>
@@ -99,7 +97,6 @@
           <label for="payoutSymbol">Symbol:</label>
           <select id="payoutSymbol" v-model="payoutOrder.symbol">
             <option value="USDT">USDT</option>
-            <option value="BTC">BTC</option>
             <option value="ETH">ETH</option>
             <option value="TRX">TRX</option>
           </select>
@@ -107,7 +104,6 @@
         <div class="form-group">
           <label for="payoutChain">Chain:</label>
           <select id="payoutChain" v-model="payoutOrder.chain">
-            <option value="TRON_TEST">TRON_TEST</option>
             <option value="TRON">TRON</option>
             <option value="ETH">Ethereum</option>
             <option value="BSC">Binance Smart Chain</option>
